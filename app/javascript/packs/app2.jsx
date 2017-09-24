@@ -3,7 +3,7 @@ import Form from './expert/Form';
 import TodoList from './expert/TodoList';
 import axios from "axios"
 
-export default class App2 extends Component {
+class App2 extends Component {
   constructor() {
     super();
     this.state = {
@@ -45,3 +45,5 @@ axios.post(url, data).then(response => response.data);
     );
   }
 }
+
+export default App2
